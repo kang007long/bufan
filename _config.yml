@@ -12,19 +12,19 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "cn_ZH"
+locale                   : "zh-CN"
 title                    : "不凡的科技博客"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "不凡"
+description              : "一个架构师."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "kang007long/bufan"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
@@ -100,10 +100,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "不甘平凡"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "一个架构师"
+  location         : "北京"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -264,8 +264,11 @@ defaults:
       type: posts
     values:
       layout: single
+      toc: true
       author_profile: true
       read_time: true
       comments: # true
       share: true
       related: true
+      sidebar:
+        nav: "left"

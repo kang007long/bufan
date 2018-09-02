@@ -1,5 +1,6 @@
 ---
 title: 安装 Docker 私有镜像仓库 Harbor
+excerp: "在 centos 安装 Docker 私有镜像仓库Harbor过程备忘"
 category: "docker"
 tags: [docker,harbor]
 ---

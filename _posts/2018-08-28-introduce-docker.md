@@ -1,5 +1,6 @@
 ---
 title: Docker 介绍-为什么我们应该使用 Docker
+excerp: Docker 是一个“一次编译，到处部署”的容器技术，该文章将介绍为什么我们需要 Docker，什么是 Docker，何时该使用 Docker。
 category: "docker"
 tags: [docker]
 ---
